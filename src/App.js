@@ -14,7 +14,10 @@ class App extends Component {
   render() {
     return (
       <div className="App">
-        <Navigation />
+        <Navigation title="Tasks" />
+        <Navigation title="Pending tasks" />
+        <Navigation title="Done tasks" />
+
 
         <img src={logo} className="App-logo" alt="logo" />
       </div>
